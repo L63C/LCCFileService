@@ -45,7 +45,7 @@ static NSString *const BCAWSS3ConfigKey = @"AWSS3ConfigKey";
 - (void)regiseterS3 {
     
     // way1 静态授权
-    AWSStaticCredentialsProvider *credentialsProvider = [[AWSStaticCredentialsProvider alloc] initWithAccessKey:@"your " secretKey:@""];
+    AWSStaticCredentialsProvider *credentialsProvider = [[AWSStaticCredentialsProvider alloc] initWithAccessKey:@"your accesskey" secretKey:@"your secret key"];
     AWSServiceConfiguration *configuration = [[AWSServiceConfiguration alloc] initWithRegion:AWSRegionAPSoutheast1 credentialsProvider:credentialsProvider];
     
     AWSS3TransferUtilityConfiguration *transferConfig = [[AWSS3TransferUtilityConfiguration alloc] init];
