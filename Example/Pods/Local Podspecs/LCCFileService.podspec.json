@@ -1,0 +1,30 @@
+{
+  "name": "LCCFileService",
+  "version": "0.1.0",
+  "summary": "A short description of LCCFileService.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lu63chuan@163.com/LCCFileService",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lu63chuan@163.com": "lu63chuan@163.com"
+  },
+  "source": {
+    "git": "https://github.com/lu63chuan@163.com/LCCFileService.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LCCFileService/Classes/**/*",
+  "dependencies": {
+    "WCDB": [
+
+    ],
+    "AWSS3": [
+
+    ]
+  }
+}
