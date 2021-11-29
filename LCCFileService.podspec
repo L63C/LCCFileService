@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 - 支持断点下载
 - 大文件分片上传
 - 最大同时上传，下载队列可控
-- 操作进度可监听
+- 上传，下载，进度多种方式监听
                        DESC
 
   s.homepage         = 'https://github.com/L63C/LCCFileService'
